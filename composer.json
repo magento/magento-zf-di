@@ -1,5 +1,5 @@
 {
-    "name": "laminas/laminas-di",
+    "name": "magento/magento-zf-di",
     "description": "Automated dependency injection for PSR-11 containers",
     "license": "BSD-3-Clause",
     "keywords": [
@@ -46,6 +46,9 @@
         "psalm/plugin-phpunit": "^0.18.0 || ^0.19.0",
         "squizlabs/php_codesniffer": "^3.7.1",
         "vimeo/psalm":"^6.0"
+    },
+    "replace": {
+      "laminas/laminas-di": "^3.15"
     },
     "conflict": {
         "zendframework/zend-di": "*",
